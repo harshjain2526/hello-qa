@@ -1,0 +1,19 @@
+.user-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  padding: 5px;
+}
+.active-status {
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(0, 0, 0);
+  /* background-color: greenyellow; */
+  position: relative;
+  right: 14px;
+  bottom: 5px;
+  height: 10px;
+  width: 10px;
+}

@@ -1,0 +1,83 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 150px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.ticket {
+  margin: 10px;
+  font-size: small;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+}
+.tag {
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  border-radius: 3px;
+  padding: 7px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tag-point {
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+  padding: 4px;
+  background: #414141;
+  margin: 3px;
+  margin-right: 5px;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding: 5px;
+}
+.active-status {
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(0, 0, 0);
+  background-color: greenyellow;
+  position: relative;
+  right: 17px;
+  bottom: 5px;
+  height: 10px;
+  width: 10px;
+}
+.signal img {
+    width:18px ;
+    height: 15px;
+}
+.signal {
+ border: 1px solid rgba(0, 0, 0, 0.429);  
+ padding:5px; 
+ border-radius: 2px;
+
+}
